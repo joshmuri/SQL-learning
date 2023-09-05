@@ -1,0 +1,15 @@
+What is SQL?
+
+SQL (Structured Query Language) is a programming language designed for managing
+and manipulating relational databases.
+
+Data Retrieval: SQL allows users to retrieve data from databases.
+
+Data Manipulation: SQL enables users to modify data in databases.
+
+Data Definition: SQL provides commands for defining and altering the structure
+of databases. 
+
+Data Control: SQL allows users to manage database access and security.
+
+
