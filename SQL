@@ -12,4 +12,20 @@ of databases.
 
 Data Control: SQL allows users to manage database access and security.
 
+What SQL can do
+- Execute queries against a database
+- Retrieve data from a database
+- Insert records in a database
+- Update records in a database
+- Delete records from a database
+- Create new databases 
+- Create new tables in a database
+- create stored procedures in a database
+- create views in a database
+- Set permissions on tables, procedures and views
 
+Using SQL in your Website
+- An RDBMS database program (i.e. MS Access, SQL Server, MySQL)
+- Use a user side scripting language like PHP or ASAP.
+- Use SQL to get the data you want
+- Use the HTML/CSS to stles pending.
