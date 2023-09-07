@@ -1,0 +1,42 @@
+Introduction to Databases
+
+SQL
+- Is a standard language for accessing and manipulating databses.
+
+Importance of SQL
+- Execute queries against a database
+- retrieve data from a database
+- insert records in a database
+- Update records in a database
+- delete records
+- create new records
+- create new tables 
+- create new databases
+- create new tables in a database
+- create stored procedures 
+- create views in a database
+- set permissions on tables, procedures and views
+
+
+RDBMS
+
+RELATIONAL DATABASE MANAGEMENT SYSTEM
+RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle,
+MySQL, and Microsoft Access.
+
+the data in RDBMS is stored in database objects called tables. A table is a
+collection of related data entries and it consists of columns and rows.
+
+Every table is broken up into smaller entities called fields. 
+The fields in the Customers table consist of CustomerID, CustomerName, ContactName,
+Address, City PostalCode and Country.
+
+A field is a column in a table that is designed to maintain specific information
+about every record in a table.
+
+A record, also called a row, is each individual entry that exists in a table. 
+
+A column is a vertical entity in a table that contains all information associated 
+with a specific field in a table.
+
+
