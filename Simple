@@ -1,1 +1,21 @@
 A simple project
+
+The lab instruction
+
+In this part of the lab, you will practice using basic SQL commands to interact 
+with a simple database.
+
+- Create a new database named "LabDB."
+- Create a table named "Students" with the following columns:
+	- StudentID (INT, primary key)
+	- FirstName (VARCHAR(50))
+	- LastName (VARCHAR(50))
+	- Age (INT)
+	- GPA (DECIMAL(3,2))
+
+- Insert at least 5 records into the "Students" table with sample data.
+- Write SQL queries to perform the following tasks:
+	A. Retrieve all records from the "Students" table.
+	B. Retrieve the records of students with a GPA greater than 3.5.
+	C. Update the age of a specific student.
+	D. Delete a student record from the table.
