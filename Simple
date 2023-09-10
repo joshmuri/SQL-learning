@@ -19,3 +19,36 @@ with a simple database.
 	B. Retrieve the records of students with a GPA greater than 3.5.
 	C. Update the age of a specific student.
 	D. Delete a student record from the table.
+
+Instructions to run
+
+#1 - CREATE DATABASE LabDB;
+
+USE LabDB;
+
+CREATE TABLE students (
+	StudentsID INT PRIMARY KEY,
+	FirstName VarChar(50),
+	LastName VarChar(50),
+	Age INT,
+	GPA DECIMAL (3,2)
+	)
+
+#2 - Inserting random
+INSERT INTO Students (StudentsID, FirstName, LastName, Age, GPA) VALUES (1, 'Alice', 'Smith', 19, 3.5),
+(2, 'Bob', 'JOnes', 20, 3.2),
+(3, 'Charlie', 'Brown', 18, 2.9),
+(4, 'David', 'Lee', 21, 3.8),
+(5, 'Emma', 'Wang', 19, 4.0);
+
+#3 - Select all the records
+Select * from students;
+
+#4 - Students with GPA > 3.5;
+SELECT * FROM 'students' WHERE 'GPA' > 3.5;
+
+#5 - update
+UPDATE 'students' SET 'Age' = 20 WHERE 'StudentsID' = 3;
+
+#6 - Deletion
+DELETE FROM 'students' WHERE 'StudentsID' = 2;
