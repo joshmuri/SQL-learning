@@ -1,1 +1,14 @@
-SQL - SELECT
+SQL - SELECT Statement
+
+Is used to select data from a database.
+
+SELECT column1, column2, ...
+FROM table_name;
+
+Here, column1, column2, ... are the field names of the table you want to select data from.
+
+The table_name represents the name of the table you want to select data from.
+
+Select All columns
+
+Use 'SELECT *' syntax.
